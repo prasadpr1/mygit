@@ -1,0 +1,35 @@
+#List of Employess
+
+http://localhost:8080/EMSV2/employess
+
+
+#SaveEmployee
+
+http://localhost:8080/EMSV2/employess/add
+
+{
+    "employeeId": "323444424",
+    "employeeName": "Suresh",
+    "salary": 25000.0,
+    "designation": "Software Engineer"
+}
+
+#min and max salary
+
+http://localhost:8080/EMSV2/employess?min-salary=1000&max-salary=55677
+
+
+#delete Employee
+
+http://localhost:8080/EMSV2/employess/323444424
+
+#Update Employee
+
+http://localhost:8080/EMSV2/employess/323444424
+
+{
+    "employeeId": "323444424",
+    "employeeName": "Suresh KuMAR",
+    "salary": 25000.0,
+    "designation": "Software Engineer"
+}
