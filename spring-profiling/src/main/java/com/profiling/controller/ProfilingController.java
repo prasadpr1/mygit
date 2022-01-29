@@ -14,9 +14,13 @@ public class ProfilingController {
 	@Autowired
 	private DataSource dataSource;
 	
+	@Autowired
+	private ServiceProperties properties;
+	
 	@GetMapping("/welcome")
 	public String welcome() {
 		dataSource.get();
+		System.out.println(properties);
 		return welcomeMsg;
 	}
 }
