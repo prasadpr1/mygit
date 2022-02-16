@@ -9,10 +9,11 @@ import org.springframework.web.client.RestTemplate;
 public class DemoController {
 
 	@Autowired
-	private RestTemplate restTemplate;
+	private OrderServiceClient client;
 	
 	@GetMapping("welcome")
 	public String welcome() {
-		return restTemplate.getForEntity("http://orderservice/welcome", String.class).getBody();
+		System.out.println("This is called");
+		return client.welcome();
 	}
 }
