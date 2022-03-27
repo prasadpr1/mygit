@@ -1,6 +1,6 @@
-<div align="center">
+<div align="left">
 <h3>Steps for Configuring Rasa</h3>
-<hr><hr />
+<hr/>
  - Install Python 3.8
  - Add Python to PATH env variable
  - Create Temp Folder RASA
@@ -16,7 +16,7 @@
 </div>
 
 
-<div align="center">
+<div align="left">
 <h3>Steps to be executed while running rasa everytime</h3>
 
  - Execute command "python -m venv ./chat
