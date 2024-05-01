@@ -1,0 +1,10 @@
+[
+  { "id": 1, "reminder": false, "day": "22/Dec/2022", "text": "Home Work" },
+  {
+    "id": 2,
+    "reminder": false,
+    "day": "23/Dec/2022",
+    "text": "Class Work"
+  },
+  { "id": 3, "reminder": true, "day": "23/Dec/2022", "text": "Timesheet" }
+]

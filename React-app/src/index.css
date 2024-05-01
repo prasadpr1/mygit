@@ -1,0 +1,16 @@
+.header{
+  display: flex !important;
+}
+
+h3{
+  margin-right: 150px;;
+}
+
+button:last-of-type {
+  margin-left: auto;
+}
+
+.addborder{
+ border-style: groove;
+ padding:30px;
+}
